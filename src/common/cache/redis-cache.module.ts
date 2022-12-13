@@ -1,4 +1,4 @@
-import { getConfig } from '@/utils';
+import { getConfig } from 'src/utils';
 import { Module, CacheModule } from '@nestjs/common';
 import { redisStore } from 'cache-manager-redis-store';
 import { RedisCacheService } from './redis-cache.service';

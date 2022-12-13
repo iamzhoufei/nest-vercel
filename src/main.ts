@@ -16,20 +16,20 @@ import fastifyCookie from '@fastify/cookie';
 // import split = require('split2');
 
 // 拦截器
-import { TransformInterceptor } from '@/common/interceptors/transform.interceptor';
+import { TransformInterceptor } from 'src/common/interceptors/transform.interceptor';
 
 // 异常处理
-import { AllExceptionsFilter } from '@/common/exceptions/base.exception.filter';
-import { HttpExceptionFilter } from '@/common/exceptions/http.exception.filter';
+import { AllExceptionsFilter } from 'src/common/exceptions/base.exception.filter';
+import { HttpExceptionFilter } from 'src/common/exceptions/http.exception.filter';
 
 // 日志服务
-import { FastifyLogger } from '@/common/logger';
+import { FastifyLogger } from 'src/common/logger';
 
 // 文档服务
-import { generateDocument } from '@/doc';
+import { generateDocument } from 'src/doc';
 
 // 根模块
-import { AppModule } from '@/app.module';
+import { AppModule } from 'src/app.module';
 
 // declare const module: any;
 

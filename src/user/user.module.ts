@@ -3,9 +3,9 @@ import { UserService } from './user.service';
 import { UserController } from './user.controller';
 import { UserProviders } from './user.providers';
 
-import { RedisCacheService } from '@/common/cache/redis-cache.service';
+import { RedisCacheService } from 'src/common/cache/redis-cache.service';
 
-import { DatabaseModule } from '@/common/database/database.module';
+import { DatabaseModule } from 'src/common/database/database.module';
 
 @Module({
   imports: [DatabaseModule],
