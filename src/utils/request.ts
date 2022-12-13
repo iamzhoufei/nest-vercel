@@ -1,5 +1,4 @@
 import axios, { Method } from 'axios';
-// import { getConfig } from 'src/utils';
 
 // const {
 //   FEISHU_CONFIG: { FEISHU_URL },
